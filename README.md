@@ -1,6 +1,7 @@
 Flatty-esoTalk-Skin
 ===================
 SkinInfo
+
 	Name => Flatty,
 	
 	Description => A flat theme Skin,
