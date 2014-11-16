@@ -1,6 +1,6 @@
 Flatty-esoTalk-Skin
 ===================
-SkinInfo
+Skin Information:
 
 	Name => Flatty,
 	
