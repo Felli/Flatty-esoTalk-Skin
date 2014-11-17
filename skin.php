@@ -13,7 +13,7 @@ if (!defined("IN_ESOTALK")) exit;
 ET::$skinInfo["Default"] = array(
 	"name" => "Flatty",
 	"description" => "A flat theme Skin.",
-	"version" => "v0.1",
+	"version" => "v0.2",
 	"author" => "Demynnfire",
 	"authorEmail" => "demynnfire1@gmail.com",
 	"authorURL" => "http://web.xen.quadrex.org/~demynnfire/",
