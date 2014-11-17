@@ -69,7 +69,7 @@ p, ul, pre {line-height:1.6em}
 
 /* Layout */
 #hdr-content, #body-content, #ftr-content {margin:0 auto; min-width:760px; max-width:1150px; padding:0 30px}
-#body-content, #ftr-content {background-color:#fff}
+#body-content, #ftr-content {background-color: #fff}
 #body-content {padding-bottom:50px; padding-top: 25px; margin-top:50px}
 #body {padding-top:60px}
 
@@ -89,9 +89,8 @@ p, ul, pre {line-height:1.6em}
 
 #mainMenu {margin-left:30px; display:inline; padding:18px 0}
 #mainMenu .forumtitle {color:#fff}
-#userMenu {float:right; padding:18px 0; margin-right:-580px; margin-left:-18px;}
-#userMenu {background-color: #fff; padding-right: 8px;}
-#userMenu .item-user {font-weight:600}
+#userMenu {border-radius: 8px; float:right; padding:18px 0; margin-right:-580px; margin-left:-18px; background-color: #fff; padding-right: 8px;}
+#userMenu .item-user {font-size:16px}
 #userMenu .item-user .avatar {vertical-align:middle; margin:-5px 8px -5px 0}
 #userMenu.menu > li {margin-left:12px; text-align:left}
 
