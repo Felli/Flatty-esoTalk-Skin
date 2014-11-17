@@ -16,6 +16,8 @@
 .scrubber li.selected > a,
 .scrubber li ul li.selected a,
 a
+.forumtitle
+#forumtitle
 {
 	color:{primary}
 }
