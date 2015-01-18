@@ -10,7 +10,7 @@ if (!defined("IN_ESOTALK")) exit;
  * @package esoTalk
  */
 
-ET::$skinInfo["Default"] = array(
+ET::$skinInfo["Flatty"] = array(
 	"name" => "Flatty",
 	"description" => "A flat theme Skin.",
 	"version" => "v0.2",
@@ -20,7 +20,7 @@ ET::$skinInfo["Default"] = array(
 	"license" => "GPLv2"
 );
 
-class ETSkin_Default extends ETSkin {
+class ETSkin_Flatty extends ETSkin {
 
 
 /**
@@ -57,7 +57,7 @@ public function handler_init($sender)
  */
 protected function writeColors($primary)
 {
-	ET::writeConfig(array("skin.Default.primaryColor" => $primary));
+	ET::writeConfig(array("skin.Flatty.primaryColor" => $primary));
 
 	$rgb = colorUnpack($primary, true);
 	$hsl = rgb2hsl($rgb);
@@ -86,7 +86,7 @@ public function settings($sender)
 	// Set up the settings form.
 	$form = ETFactory::make("form");
 	$form->action = URL("admin/appearance");
-	$form->setValue("primaryColor", C("skin.Default.primaryColor"));
+	$form->setValue("primaryColor", C("skin.Flatty.primaryColor"));
 
 	// If the form was submitted...
 	if ($form->validPostBack("save")) {
