@@ -64,14 +64,14 @@ p, ul, pre {line-height:1.6em}
 .action .name, .action a, .action strong {font-weight:600}
 .avatar {border-radius:15px}
 .scrubber li.selected > a {font-weight:600}
-.scrubberContent {padding: 8px; border-style: solid; border-width: 1px; border-radius: 10px; border-color: #eaeaea;}
+.scrubberContent {margin-top: -25px; padding: 8px; border-style: solid; border-width: 1px; border-radius: 10px; border-color: #eaeaea; height: 285px;}
 
 
 /* Layout */
 #hdr-content, #body-content, #ftr-content {margin:0 auto; min-width:760px; max-width:1150px; padding:0 30px}
 #body-content, #ftr-content {background-color: #fff}
-#body-content {padding-bottom:50px; padding-top: 25px; margin-top:50px}
-#body {padding-top:60px}
+#body-content {padding-bottom:25px; padding-top: 25px; margin-top:50px}
+/*#body {padding-top:60px}*/
 
 
 /* Menus (inline lists) */
