@@ -64,7 +64,7 @@ p, ul, pre {line-height:1.6em}
 .action .name, .action a, .action strong {font-weight:600}
 .avatar {border-radius:15px}
 .scrubber li.selected > a {font-weight:600}
-.scrubberContent {padding: 8px; border-style: solid; border-width: 1px; border-radius: 10px; border-color: #eaeaea;}
+.scrubberContent {width:150px; position:absolute; z-index:2;}
 
 
 /* Layout */
