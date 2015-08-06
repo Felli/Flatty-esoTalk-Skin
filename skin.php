@@ -10,7 +10,7 @@ if (!defined("IN_ESOTALK")) exit;
  * @package esoTalk
  */
 
-ET::$skinInfo["Default"] = array(
+ET::$skinInfo["Flatty"] = array(
 	"name" => "Flatty",
 	"description" => "A flat theme Skin.",
 	"version" => "v0.2",
@@ -20,7 +20,7 @@ ET::$skinInfo["Default"] = array(
 	"license" => "GPLv2"
 );
 
-class ETSkin_Default extends ETSkin {
+class ETSkin_Flatty extends ETSkin {
 
 
 /**
